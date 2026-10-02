@@ -65,7 +65,7 @@
       "name": "Meni",
       "short_name": "Meni",
       "description": "Pogledaj naš meni",
-      "url": "/menu2.html",
+      "url": "/menu.html",
       "icons": [
         {
           "src": "assets/images/icons/menu-shortcut.png",

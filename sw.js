@@ -11,7 +11,7 @@ const DYNAMIC_CACHE = 'moonlight-dynamic-v1.2';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
-    '/menu2.html',
+    '/menu.html',
     '/assets/css/critical.css',
     '/assets/css/non-critical.css',
     '/assets/css/menu-optimized.css',
@@ -208,7 +208,7 @@ self.addEventListener('notificationclick', event => {
     if (event.action === 'explore') {
         // Open menu page
         event.waitUntil(
-            clients.openWindow('/menu2.html')
+            clients.openWindow('/menu.html')
         );
     } else if (event.action === 'close') {
         // Just close the notification
@@ -238,7 +238,7 @@ function syncMenuData() {
             // Update cached menu data if changed
             if (data.lastModified > getLastMenuUpdate()) {
                 return caches.open(DYNAMIC_CACHE).then(cache => {
-                    return cache.add('/menu2.html');
+                    return cache.add('/menu.html');
                 });
             }
         })
