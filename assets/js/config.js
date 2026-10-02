@@ -9,7 +9,7 @@ const siteConfig = {
   // Domain & URLs
   domain: "https://vericavje8-rgb.github.io/MoonLIght",
   homeUrl: "https://vericavje8-rgb.github.io/MoonLIght/index.html",
-  menuUrl: "https://vericavje8-rgb.github.io/MoonLIght/menu2.html",
+  menuUrl: "https://vericavje8-rgb.github.io/MoonLIght/menu.html",
   qrUrl: "https://vericavje8-rgb.github.io/MoonLIght/qr-code.html",
   
   // Contact Information
